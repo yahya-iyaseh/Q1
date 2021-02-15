@@ -11,13 +11,23 @@ input[type="submit"] {
   background: linear-gradient(90deg, #2655ee, #34b3ff) !important;
   border-radius: 40px !important;
 }
+.list-footer ul li a {
+  font-size: 1.2rem;
+}
 .thin {
-  font-weight: 250;
+  font-weight: 250 !important;
 }
 .social-contact img {
   cursor: pointer;
 }
+.list-footer {
+  border-top: 1px solid #aaa;
+}
 
+#btn-top {
+  color: black;
+  padding: 2rem !important;
+}
 #main-nav {
   opacity: 0.8;
 }
@@ -61,8 +71,6 @@ input[type="submit"] {
   padding-top: 80px;
 }
 
-
-
 @media (max-width: 999px) {
   #home {
     margin-left: -100px;
@@ -76,10 +84,10 @@ input[type="submit"] {
 }
 @media (max-width: 860px) {
   .img-4 {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .img-p {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
 }
 @media (max-width: 768px) {
@@ -90,7 +98,7 @@ input[type="submit"] {
 
 @media (max-width: 576px) {
   #home {
-    margin-left: -400px;
+    margin-left: -200px;
   }
   .display-4 {
     font-size: 3em;
@@ -109,5 +117,8 @@ input[type="submit"] {
   #card-light {
     padding-left: 0 !important;
     margin-left: 0 !important;
+  }
+  .list-footer {
+    border: none;
   }
 }
